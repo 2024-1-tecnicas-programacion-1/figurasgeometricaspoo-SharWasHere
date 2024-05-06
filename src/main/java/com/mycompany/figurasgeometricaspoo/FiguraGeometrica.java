@@ -3,10 +3,7 @@ package com.mycompany.figurasgeometricaspoo;
 import java.text.NumberFormat;
 import java.util.Locale;
 
-/**
- * Clase para una prenda de vestir.
- */
-public class FiguraGeometrica {
+public abstract class FiguraGeometrica {
     private String nombre;
     private String color;
 
@@ -22,23 +19,10 @@ public class FiguraGeometrica {
         this.nombre = nombre;
         this.color = color;
     }
+}
+ 
+    
 
-    /**
-     * Complejidad temporal: O(1) Tiempo constante.
-     */
-    public double obtenerArea() {
-        
 
-        return precioFormateado;
-    }
-
-    /**
-     * 
-     * Complejidad temporal: O(1) Tiempo constante.
-     */
-    public double obtenerPerimetro() {
- ;
-    }
-}   
     
 
